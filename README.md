@@ -1,19 +1,20 @@
 # POOExercise ONE
 POOExercise ONE
+
 hello! This is a practical OOP exercise developed in C#.
 In this project the concepts were applied
 
-Class.
-methods
-attributes
-Inheritance
-extends
-Implements
-Polymorphism.
-Interface
-Objects as parameter
-model class
-encapsulation
+*Class.
+*methods
+*attributes
+*Inheritance
+*extends
+*Implements
+*Polymorphism.
+*Interface
+*Objects as parameter
+*model class
+*encapsulation
 
 What happens when I run this project?
 
