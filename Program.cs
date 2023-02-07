@@ -9,33 +9,25 @@ namespace EjerciciooUno
     internal class Program
     {
         static void Main(string[] args)
-        {
-            
+        {            
             // se instancia pedro             
-            Pedro opedro = new Pedro ();
+            Pedro opedro = new Pedro();
 
             // se crea modelo persona de pedro
-            ModeloPersona modelopedro = new ModeloPersona ("Blanco",45,"pedro perez");
+            ModeloPersona modelopedro = new ModeloPersona("Blanco",45,"pedro perez");
 
             //se llena info de pedro
-            opedro.llenarInfo (modelopedro);
+            opedro.llenarInfo(modelopedro);
 
             // Se llama tocar piano           
-            opedro.tocarPiano();
+            opedro.tocarPiano("la melodia del amor");
 
             //se llama caminar
             opedro.caminar();
 
             // se muestra informacion de pedro almacenada
-
-            Console.Write("pedro tiene el pelo de color " + opedro.variableGlobal.ColorPelo);
-
-            Console.Write(" su edad es "+ opedro.variableGlobal.Edad);
-
-            Console.Write(" y su nombre es " + opedro.variableGlobal.Nombre);
-
+            Console.Write("pedro tiene el pelo de color " + opedro.variableGlobal.getColorPelo(), " su edad es " + opedro.variableGlobal.getEdad(), " y su nombre es " + opedro.variableGlobal.getNombre());
             Console.WriteLine("");
-
             // se instancia pepita
             Pepita opepita = new Pepita ();
 
@@ -49,15 +41,8 @@ namespace EjerciciooUno
             opepita.caminar();
 
             // se llama tocar flauta
-            opepita.tocarFlauta();
-
-
-
-
-
+            opepita.tocarFlauta("El Titanic");
             Console.ReadKey();
-
-
         }
     }
 }

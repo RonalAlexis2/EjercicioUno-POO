@@ -6,21 +6,11 @@ using System.Threading.Tasks;
 
 namespace EjerciciooUno
 {
-    internal class Pepita:Persona
-    {
-        // se crea metodo para pepita tocar flauta
-        public void tocarFlauta()
+    internal class Pepita : Persona
+    { // se crea metodo para pepita tocar flauta
+        public void tocarFlauta(string cancionfaluta)
         {
-
-            Console.WriteLine("pepita toca flauta");
+            Console.WriteLine("pepita toca el tema "+cancionfaluta);
         }
-
-        // se crea metodo para pepita caminar
-        public void caminar()
-        {
-            Console.WriteLine("pepita esta caminando");
-        }
-
-
     }
 }

@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace EjerciciooUno
 {
-    internal interface AccionPersona
+    public interface AccionPersona
     {
         // se crea interfaz 
         void caminar();
         void saltar();
         void gritar();
-
     }
 }
