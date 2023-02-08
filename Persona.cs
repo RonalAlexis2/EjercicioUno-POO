@@ -29,12 +29,9 @@ namespace EjerciciooUno
          public ModeloPersona variableGlobal;
 
         // se crea metodo llenar info que recibe datos1 de tipo ModeloPersona y guardamos ese dato1 en la variable global
-        public void llenarInfo(ModeloPersona datosPersona1)
+        public void llenarInfo(ModeloPersona datosPersona)
         {
-            variableGlobal = datosPersona1;
-        }              
-        // se crea metodo para pepita caminar
-                     
-        
+            variableGlobal = datosPersona;
+        }            
     }
 }
